@@ -1,0 +1,9 @@
+spring:
+  profiles:
+    active:
+      - postgre
+      - cassandra
+      - zipkin
+
+server:
+  port: 9090
